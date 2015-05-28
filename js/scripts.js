@@ -12,7 +12,7 @@ var wordCount = function(phrase) {
       }
     });
     var numberOfTimes = counter;
-    var final = (" " + uniqWord + ": " + numberOfTimes + " ");
+    var final = (uniqWord + ": " + numberOfTimes);
     finalCount.push(final);
     counter = 0;
   });
